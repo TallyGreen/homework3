@@ -26,19 +26,19 @@ def question1():
     answers["(c) explain"] = "It denpend on on the context.While k-means is efficient in many scenarios, its performance and suitability can vary depending on the dataset's characteristics, the number of dimensions, and the shape and size of the data distribution. Other clustering algorithms might be more efficient or appropriate for specific types of data or clustering objectives"
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = "SSE improves in each iteration of K-means until it reaches a local or global minima."
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = " it means the distances between the data points and their respective cluster centroids are getting smaller, which d"
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
     answers["(f) explain"] = "average distance between cluster centroids and the overall dataset centroid is increasing, implying that clusters are more spread out from each other."
